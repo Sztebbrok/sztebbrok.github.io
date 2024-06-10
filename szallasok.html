@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <title>liviesgabi</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <ul id="navbar-ul2">
+                <li><a href="index.html"><img id="logo" src="logo.png" alt=""></a></li>
+                <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="helyszin.html">Helyszín</a></li>
+                <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="programterv.html">Programterv</a></li>
+                <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="menu.html">Menü</a></li>
+                <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="szallasok.html">Szálláslehetőségek</a></li>
+                <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="gyik.html">GYIK</a></li>
+                <li><a id="ham-icon" class="headertext-padding headertext-style quicksand" onclick=showSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+              </ul>
+          </div>
+            <div class="sidebar">
+          
+              <ul>
+                <li><a onclick=hideSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a class="headertext-padding headertext-style quicksand" href="helyszin.html">Helyszín</a></li>
+                <li><a class="headertext-padding headertext-style quicksand" href="programterv.html">Programterv</a></li>
+                <li><a class="headertext-padding headertext-style quicksand" href="menu.html">Menü</a></li>
+                <li><a class="headertext-padding headertext-style quicksand" href="szallasok.html">Szálláslehetőségek</a></li>
+                <li><a class="headertext-padding headertext-style quicksand" href="gyik.html">GYIK</a></li>
+              </ul>
+            </div>
+          <div id="hotel-main-title" class="sacramento-regular title">
+            <h3 id="hoteltitle">Szálláslehetőségek</h3>
+          </div>
+          <h5 class="citytitle dm-sans">Nagykőrös</h5>
+        <div class="hotel-div">
+            <div id="egy" class="left-screen half hotel-left">
+                <img class="hotel-img" src="lassutanya.webp" alt="">
+            </div>
+            <div id="ketto" class="right-screen half hotel-right hotel-description">
+                <div class="venue-title quicksand">Lassú Tanya Vendégház</div>
+                <div class="venue-text quicksand">Nagykőrös</div>
+                <div class="venue-text quicksand"> Lencsés-Világos dűlő 29.</div>
+                <div class="venue-text quicksand">telefonszám: +36 70 453 4305</div>
+                <div class="venue-text quicksand">e-mail: reni.balogh83@gmail.com</div>
+                <div class="venue-text quicksand"><a href="https://www.lassutanya-vendeghaz.hu/" target="_blank">https://www.lassutanya-vendeghaz.hu/</a></div>
+            </div>
+        </div>
+        <div class="hotel-div dark-green">
+                <div id="negy" class="left-screen half hotel-right hotel-description">
+                    <div class="venue-title quicksand">Deák Panzió</div>
+                    <div class="venue-text quicksand">Nagykőrös</div>
+                    <div class="venue-text quicksand">Dalmady Győző u. 2</div>
+                    <div class="venue-text quicksand">telefonszám: +36 20 955 4082</div>
+                    <div class="venue-text quicksand">e-mail: info@deakpanzio.hu</div>
+                    <div class="venue-text quicksand"><a href="https://www.deakpanzio.hu/" target="_blank">https://www.deakpanzio.hu/</a></div>       
+            </div>
+            <div id="harom" class="right-screen half hotel-left">
+                <img class="hotel-img" src="deak.webp" alt="">
+            </div>
+        </div>
+        <div class="hotel-div">
+            <div id="ot" class="left-screen half hotel-left">
+                <img class="hotel-img" src="kinizsi.jpg" alt="">
+            </div>
+            <div id="hat" class="right-screen half hotel-right hotel-description">
+                <div class="venue-title quicksand">Kinizsi Panzió</div>
+                <div class="venue-text quicksand">Nagykőrös</div>
+                <div class="venue-text quicksand">Deák tér 2.</div>
+                <div class="venue-text quicksand">telefonszám: +36 53 348 390</div>
+                <div class="venue-text quicksand">e-mail: info@kinizsink.hu</div>
+                <div class="venue-text quicksand"><a href="https://kinizsink.hu/" target="_blank">https://kinizsink.hu</a></div>
+            </div>
+        </div>
+        <div class="hotel-div dark-green">
+                <div id="nyolc" class="left-screen half hotel-right hotel-description">
+                    <div class="venue-title quicksand">Élet És Energia</div>
+                    <div class="venue-text quicksand">Nagykőrös</div>
+                    <div class="venue-text quicksand">Losonczi u. 54.</div>
+                    <div class="venue-text quicksand">telefonszám: +36 30 269 55 79</div>
+                    <div class="venue-text quicksand">e-mail:  info@nagykorosiszallas.hu</div>
+                    <div class="venue-text quicksand"><a href="https://nagykorosiszallas.hu/" target="_blank">https://nagykorosiszallas.hu/</a></div>       
+            </div>
+            <div id="het" class="right-screen half hotel-left">
+                <img class="hotel-img" src="eletesenergia.jpg" alt="">
+            </div>
+        </div>
+        <div class="hotel-div">
+            <div id="kilenc" class="left-screen half hotel-left">
+                <img class="hotel-img" src="toldi.jpg" alt="">
+            </div>
+            <div id="tiz" class="right-screen half hotel-right hotel-description">
+                <div class="venue-title quicksand">Toldi Kollégium</div>
+                <div class="venue-text quicksand">Nagykőrös</div>
+                <div class="venue-text quicksand">Ceglédi út 24.</div>
+                <div class="venue-text quicksand">telefonszám: +36 53 351 922</div>
+                <div class="venue-text quicksand">e-mail: szallas@toldiszki.hu</div>
+            </div>
+        </div>
+        <h5 class="citytitle dm-sans">Csemő</h5>
+        <div class="hotel-div dark-green">
+                <div id="tizenketto" class="left-screen half hotel-right hotel-description">
+                    <div class="venue-title quicksand">Csemő Fenyves Vendégház</div>
+                    <div class="venue-text quicksand">Csemő</div>
+                    <div class="venue-text quicksand">Pesti út 1.</div>
+                    <div class="venue-text quicksand">telefonszám: +36 20 662 5600</div>
+                    <div class="venue-text quicksand">e-mail:  taylor.lilian65@gmail.com</div>
+                    <div class="venue-text quicksand"><a href="https://www.fenyvesvendeghaz.nagykoros.hu/fenyves.php" target="_blank">https://www.fenyvesvendeghaz.nagykoros.hu/fenyves.php</a></div>       
+            </div>
+            <div id="tizenegy" class="right-screen half hotel-left">
+                <img class="hotel-img" src="csemo.jpg" alt="">
+            </div>
+        </div>
+        <h5 class="citytitle dm-sans">Cegléd</h5>
+        <div class="hotel-div">
+            <div id="tizenharom" class="left-screen half hotel-left">
+                <img class="hotel-img" src="thermal.jpeg" alt="">
+            </div>
+            <div id="tizennegy" class="right-screen half hotel-right hotel-description">
+                <div class="venue-title quicksand">Thermal Village</div>
+                <div class="venue-text quicksand">Cegléd</div>
+                <div class="venue-text quicksand">Szent Márton utca 1.</div>
+                <div class="venue-text quicksand">telefonszám: +36 30 239 4278</div>
+                <div class="venue-text quicksand">e-mail: thermalvillagecegled8@gmail.com</div>
+                <div class="venue-text quicksand"><a href="https://hun.villagecegled.com/" target="_blank">https://hun.villagecegled.com/</a></div> 
+            </div>
+        </div>
+        <div class="hotel-div dark-green">
+                <div id="tizenhat" class="left-screen half hotel-right hotel-description">
+                    <div class="venue-title quicksand">Hotel Aquarell</div>
+                    <div class="venue-text quicksand">Cegléd</div>
+                    <div class="venue-text quicksand">Fürdő út 24.</div>
+                    <div class="venue-text quicksand">telefonszám: +36 53 510 900</div>
+                    <div class="venue-text quicksand">e-mail:  hotelaquarell@hunguesthotels.hu</div>
+                    <div class="venue-text quicksand"><a href="https://www.aquarellhotel.hu" target="_blank">https://www.aquarellhotel.hu</a></div>       
+            </div>
+            <div id="tizenot" class="right-screen half hotel-left">
+                <img class="hotel-img" src="aquarell.jpg" alt="">
+            </div>
+        </div>
+        <div class="hotel-div">
+            <div id="tizenhet" class="left-screen half hotel-left">
+                <img class="hotel-img" src="alfold.jpg" alt="">
+            </div>
+            <div id="tizennyolc" class="right-screen half hotel-right hotel-description">
+                <div class="venue-title quicksand">Alföld Panzió</div>
+                <div class="venue-text quicksand">Cegléd</div>
+                <div class="venue-text quicksand">Szolnoki út 15/A</div>
+                <div class="venue-text quicksand">telefonszám: +36 06 53 318 645</div>
+                <div class="venue-text quicksand">e-mail: info@panzioalfold.hu</div>
+                <div class="venue-text quicksand"><a href="https://www.panzioalfold.hu/index.php?t=fooldal/" target="_blank">https://www.panzioalfold.hu/index.php?t=fooldal</a></div>
+            </div>
+        </div>
+        <script>
+            function showSidebar(){
+              const sidebar = document.querySelector('.sidebar')
+              sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+              const sidebar = document.querySelector('.sidebar')
+              sidebar.style.display = 'none'
+            }
+        </script>
+    </body>
+</html>
