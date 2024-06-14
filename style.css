@@ -1021,7 +1021,8 @@ svg{
         z-index:0;
         border-radius: 0;
         width: 120%;
-        margin-top: -70%;
+       position:fixed;
+        top:0;
         height: 55%;
         opacity: 90%;
     }
