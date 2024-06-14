@@ -1004,6 +1004,14 @@ svg{
         width: 90%;
         height: 75%;
     }
+
+    #menu-div h3{
+        font-height: 40px;
+    }
+
+    #menu-div h4{
+        font-height: 40px;
+    }
     
     .header {
         height: 110px;
