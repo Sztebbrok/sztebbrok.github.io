@@ -1002,7 +1002,11 @@ svg{
 
     #menu-div{
         width: 90%;
-        height: 85%;
+        height: 90%;
+    }
+
+    #menu-div h2{
+        font-size: 40px;
     }
 
     #menu-div h3{
