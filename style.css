@@ -1005,12 +1005,16 @@ svg{
     }
 
     .sidebar {
-        width: 350px;
+        width: 55%;
     }
 
     .sidebar a {
-        font-size: 30px;
+        font-size: 48px;
+        font-weight: 600;
     }
+    svg {
+        height: 40;
+        width: 40;
 }
 @media(min-width: 800px) and (max-width: 1300px){
 
