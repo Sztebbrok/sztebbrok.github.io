@@ -1020,6 +1020,14 @@ svg{
     #menu-div h4{
         font-size: 40px;
     }
+
+    #gyikdiv h2 {
+        margin-top: 20%;
+    }
+
+    #gyikdiv h6 {
+        margin-top: 20%;
+    }
     
     .header {
         height: 110px;
