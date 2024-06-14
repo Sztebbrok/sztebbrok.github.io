@@ -216,6 +216,23 @@ hr{
     color: rgb(74, 26, 6);
 }
 
+#program {
+    text-align:center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+
+}
+
+#program img {
+    height: 100%;
+    width: 40%;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(77,77,75,1);
+-moz-box-shadow: 0px 0px 9px 0px rgba(77,77,75,1);
+box-shadow: 0px 0px 9px 0px rgba(77,77,75,1);
+
+}
+
 .off-screen-menu {
     background-color: rgba(230,230,230,.4);
     height: 100vh;
