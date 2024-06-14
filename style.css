@@ -1012,6 +1012,10 @@ svg{
         font-size: 48px;
         font-weight: 600;
     }
+    
+    .sidebar li {
+        margin-top: 60px;
+    }
     svg {
         height: 40;
         width: 40;
