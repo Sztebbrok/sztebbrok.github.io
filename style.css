@@ -1065,7 +1065,16 @@ svg{
     svg {
         height: 40;
         width: 40;
-}
+    }
+
+     .slide-up > div, .slide-down > div {
+        margin-top: -75%;
+        transition: margin-top 0.4s ease-in-out;
+      }
+      .slide-down > div {            
+        margin-top: 0;
+      } 
+    
 @media(min-width: 800px) and (max-width: 1300px){
 
 #main-title {
