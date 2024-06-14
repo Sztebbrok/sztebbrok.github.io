@@ -1000,6 +1000,10 @@ svg{
         font-size: 120px;
     }
 
+    #hoteltitle{
+        font-size:110px;
+    }
+
     #menu-div{
         width: 90%;
         height: 90%;
@@ -1033,6 +1037,31 @@ svg{
     .sidebar li {
         margin-top: 60px;
     }
+
+    .citytitle {
+        font-size: 60px;
+    }
+
+    .venue-title {
+        font-size: 45px;
+    }
+
+    .quicksand {
+        font-weight: 500;
+    }
+
+    .venue-text {
+        font-size: 23px;
+    }
+
+    .hotel-left img {
+            border-radius: 15px;
+    }
+
+    .hotel-description {
+            border-radius: 15px;
+    }
+    
     svg {
         height: 40;
         width: 40;
