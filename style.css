@@ -1,4 +1,9 @@
+@media only screen and (max-device-width: 500px) {
+    body{
+        background-color: red;
 
+    }
+} 
 body {
     background-color: rgb(166,194,155);
     background-position: center;
