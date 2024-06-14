@@ -131,7 +131,7 @@ hr{
 
 #menu-div {
     width: 50%;
-    height: 140%;
+    height: 2200px;
     background-color: rgba(243, 222, 210, 0.2);
     color:#795c34;
     opacity: 0.9;
@@ -1038,7 +1038,7 @@ svg{
 
     #menu-div{
         width: 90%;
-        height: 90%;
+        height: 3200px;
     }
 
     #menu-div h2{
