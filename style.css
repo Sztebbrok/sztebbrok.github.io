@@ -1047,8 +1047,9 @@ svg{
     }
 
     #program {
-    margin-top: 8%;
+    margin-top: 20%;
     margin-bottom: 5%;
+    width: 100%;
     }
 
     #program img {
