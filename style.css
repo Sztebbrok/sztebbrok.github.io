@@ -1,9 +1,4 @@
-@media only screen and (max-device-width: 500px) {
-    body{
-        background-color: red;
 
-    }
-} 
 body {
     background-color: rgb(166,194,155);
     background-position: center;
@@ -987,8 +982,9 @@ svg{
     #together-img{
         position:absolute;
         z-index:0;
-        border-radius: 50;
-        width: 65%;
+        border-radius: 0;
+        margin-top: -25%;
+        height: 80%;
         opacity: 75%;
     }
     #month{
