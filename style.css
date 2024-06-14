@@ -1027,6 +1027,8 @@ svg{
 
     #gyikdiv h6 {
         margin-top: 20%;
+        font-size: 12px;
+        font-weight: 200;
     }
     
     .header {
