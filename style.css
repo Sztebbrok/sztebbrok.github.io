@@ -26,12 +26,16 @@ hr{
 }
 
 #rsvp-div{
+    text-align:center;
     font-size: 40px;
     color: white;
+    display: block;
 }
 
-#rsvp{
-    font-size: 22px;
+#rsvp-text{
+    text-align:center;
+    font-size: 30px;
+    display: block;
 }
 
 #navbar {
