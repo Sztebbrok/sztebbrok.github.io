@@ -989,7 +989,7 @@ svg{
         z-index:0;
         border-radius: 0;
         width: 100%;
-        margin-top: -90%;
+        margin-top: -65%;
         height: 60%;
         opacity: 90%;
     }
@@ -1000,6 +1000,11 @@ svg{
         font-size: 120px;
     }
 
+    #menu-div{
+        width: 90%;
+        height: 75%;
+    }
+    
     .header {
         height: 110px;
     }
