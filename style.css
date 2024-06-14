@@ -1065,7 +1065,7 @@ svg{
     }
 
     #treeline {
-        visibility:none;
+        visibility:hidden;
     }
     
     .header {
