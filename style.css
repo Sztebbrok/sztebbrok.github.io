@@ -240,7 +240,23 @@ hr{
     -webkit-box-shadow: 0px 0px 9px 0px rgba(77,77,75,1);
 -moz-box-shadow: 0px 0px 9px 0px rgba(77,77,75,1);
 box-shadow: 0px 0px 9px 0px rgba(77,77,75,1);
+}
 
+#welcome{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    text-align: center;
+    color: rgb(230,230,230);
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.playwrite {
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .off-screen-menu {
