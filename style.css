@@ -1152,6 +1152,7 @@ svg{
 
     .sidebar {
         width: 55%;
+        height: 200vh;
     }
 
     .sidebar a {
