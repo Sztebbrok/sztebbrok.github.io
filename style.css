@@ -1130,6 +1130,11 @@ svg{
     #venue-div{
         padding-top:10%;
         padding-bottom:10%;
+        height:400px;
+    }
+
+    #rsvp-div{
+        margin-top: 99px;
     }
 
     #welcome{
