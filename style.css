@@ -553,7 +553,7 @@ svg{
     overflow:hidden
   }
   .slide-up > div, .slide-down > div {
-    margin-top: -25%;
+    margin-top: -35%;
     transition: margin-top 0.4s ease-in-out;
   }
   .slide-down > div {            
