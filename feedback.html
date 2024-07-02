@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>liviesgabi</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="header">
+        <ul id="navbar-ul2">
+            <li><a href="en.html"><img id="logo" src="logo.png" alt=""></a></li>
+            <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="helyszin.html" id="hunflag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 3"><path fill="#436F4D" d="M0 0h6v3H0z"/><path fill="#FFF" d="M0 0h6v2H0z"/><path fill="#CD2A3E" d="M0 0h6v1H0z"/></svg></a></li>
+            <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="feedback.html">Feedback</a></li>
+            <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="schedule.html">Schedule</a></li>
+            <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="menuen.html">Menu</a></li>
+            <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="accommodations.html">Accommodations</a></li>
+            <li><a class="headertext-padding headertext-style quicksand hideOnMobile" href="faq.html">FAQ</a></li>
+            <li><a id="ham-icon" class="headertext-padding headertext-style quicksand" onclick=showSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+          </ul>
+      </div>
+        <div class="sidebar">
+      
+          <ul>
+            <li><a onclick=hideSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a class="headertext-padding headertext-style quicksand" href="feedback.html">Feedback</a></li>
+            <li><a class="headertext-padding headertext-style quicksand" href="schedule.html">Schedule</a></li>
+            <li><a class="headertext-padding headertext-style quicksand" href="menuen.html">Menu</a></li>
+            <li><a class="headertext-padding headertext-style quicksand" href="accommodations.html">Accommodations</a></li>
+            <li><a class="headertext-padding headertext-style quicksand" href="faq.html">FAQ</a></li>
+          </ul>
+  
+        </div>
+          <div id="venue-title" class="sacramento-regular title">
+            <h3>Feedback</h3>
+          </div>
+        <div id="venue-div" class="dark-green">
+            <div id="rsvp-div">
+            <h4>Please fill this form here about your attendance:</h4>
+            </div>
+            <div id="rsvp-text">
+            <h5><a href="https://forms.office.com/r/aaa8yW1Wz5">https://forms.office.com/r/aaa8yW1Wz5</a></h5>
+            </div>
+        <script>
+          function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex';
+          }
+          function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+          }
+      </script>
+    </body>
+</html>
